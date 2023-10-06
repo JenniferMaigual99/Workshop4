@@ -8,12 +8,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Embarcacion> embarcaciones = new ArrayList<>();
         ArrayList<Capitan> capitanes = new ArrayList<>();
+        System.out.println("Bienvenido a Makai Sistema de alquiler de embarcaciones");
+        System.out.println("\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+
+                "\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"
+                +"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2");
 
         while (true) {
-            System.out.println("Bienvenido a Makai Sistema de alquiler de embarcaciones");
-            System.out.println("\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+
-                    "\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"
-                    +"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2"+"\uD83D\uDEA2");
+
             System.out.println("\n....................Menú.........................");
             System.out.println("1. Agregar una embarcación");
             System.out.println("2. Agregar un capitán");
