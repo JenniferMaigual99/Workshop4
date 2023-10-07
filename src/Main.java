@@ -170,7 +170,11 @@ public class Main {
                         System.out.println("Especificaciones de la embarcación:");
                         System.out.println("Tipo: " + embarcacionMostrar.getClass().getSimpleName());
                         System.out.println("Eslora: " + embarcacionMostrar.getEslora() + " metros");
+                        System.out.println("Nombre capitan :"+embarcacionMostrar.getCapitan().getNombre() );
+                        System.out.println("Apellido capitan :"+embarcacionMostrar.getCapitan().getApellido());
+                        System.out.println("Matricula de navegacion capitan :"+embarcacionMostrar.getCapitan().getMatriculaNavegacion() );
 
+                        embarcacionMostrar.validar();
                         System.out.println("Justificación del precio:");
                         System.out.println("Precio base: $" + embarcacionMostrar.getPrecioBase());
                         System.out.println("Año de fabricación: " + embarcacionMostrar.getAñoFabricacion());

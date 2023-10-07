@@ -1,4 +1,4 @@
-public class Embarcacion {
+public class Embarcacion implements Validacion {
     private Capitan capitan;
     private double precioBase;
     private int añoFabricacion;
@@ -50,5 +50,9 @@ public class Embarcacion {
 
     public void setEslora(double eslora) {
         this.eslora = eslora;
+    }
+    @Override
+    public void validar() {
+
     }
 }
